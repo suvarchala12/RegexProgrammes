@@ -1,11 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-namespace RegexProgrammes
+﻿
+namespace RegexPatternMatching
 {
-     class RegexProgrammes
+    public class Program
     {
-        static void Main(string[]args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("RegexProgrammes");
+            //UC1
+            //FirstNameRegex pattern = new FirstNameRegex();
+            //Console.WriteLine(pattern.validateFirstName("Svc"));
+
+            //UC2
+            LastNameRegex pattern2 = new LastNameRegex();
+            Console.WriteLine(pattern2.validateLastName("Bhuma"));
 
         }
     }
