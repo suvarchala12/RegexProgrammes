@@ -7,8 +7,8 @@ namespace RegexPatternMatching
         {
 
             //UC5
-            PasswordRegexRule2 pattern5 = new PasswordRegexRule2();
-            Console.WriteLine(pattern5.ValidatePasswordRule2("suvarchala"));
+            PasswordRegexRule3 pattern5 = new PasswordRegexRule3();
+            Console.WriteLine(pattern5.ValidatePasswordRule3("suvarchalaseshu"));
 
 
         }
