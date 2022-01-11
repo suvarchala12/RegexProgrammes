@@ -5,9 +5,12 @@ namespace RegexPatternMatching
     {
         static void Main(string[] args)
         {
-            //UC1
-            FirstNameRegex pattern = new FirstNameRegex();
-            Console.WriteLine(pattern.validateFirstName("Svc"));
+           
+            //UC3
+            EmailRegex pattern3 = new EmailRegex();
+            Console.WriteLine(pattern3.validateEmail("abc.xyz@bl.co.in"));
+
         }
     }
+ 
 }
